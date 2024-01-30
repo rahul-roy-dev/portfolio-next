@@ -85,7 +85,7 @@ const About = () => {
   console.log(index);
 
   return (
-    <div className="h-full bg-primary/30 pt-[100px] lg:pt-[200px] text-center xl:text-left ">
+    <div className="h-full bg-primary/30 pt-[130px] lg:pt-[200px] text-center xl:text-left ">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
@@ -104,7 +104,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-md lg:text-6xl"
+            className="h2 text-[18px] md:text-md  lg:text-6xl"
           >
             Creating the <span className="text-accent ">Website</span> you've been looking for
           </motion.h2>
