@@ -86,7 +86,7 @@ const About = () => {
       >
         <div id="Avatar" className=" w-[25vw] h-auto "></div>
       </motion.div>
-      <div className="container mx-auto h-screen flex flex-col items-center xl:flex-row gap-x-3">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-3">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
