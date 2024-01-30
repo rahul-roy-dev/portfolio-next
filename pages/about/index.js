@@ -85,7 +85,7 @@ const About = () => {
   console.log(index);
 
   return (
-    <div className="h-full bg-primary/30 pt-[200px] text-center xl:text-left ">
+    <div className="h-full bg-primary/30 pt-[100px] lg:pt-[200px] text-center xl:text-left ">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
