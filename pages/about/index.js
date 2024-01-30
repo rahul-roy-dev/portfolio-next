@@ -1,19 +1,9 @@
 import React, { useState } from "react";
 
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
 
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiNextdotjs, SiFramer, SiTailwindcss } from "react-icons/si";
 
 //  data
 const aboutData = [
@@ -85,7 +75,7 @@ const About = () => {
   console.log(index);
 
   return (
-    <div className="h-full bg-primary/30 py-[200px] text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-[20px] lg:py-[40px] text-center xl:text-left">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
@@ -96,7 +86,7 @@ const About = () => {
       >
         <div id="Avatar" className=" w-[25vw] h-auto "></div>
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-screen flex flex-col items-center xl:flex-row gap-x-3">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
@@ -104,18 +94,23 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-md lg:text-6xl"
+            className="h2 text-sm md:text-md lg:text-6xl"
           >
-            Creating the <span className="text-accent ">Website</span> you've been looking for
+            Creating the <span className="text-accent ">Website</span> you've
+            been looking for
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
           >
-            Graduate of Harisenin’s Full Stack Web Developer Bootcamp  who switched lane  from a  5 years career on the road as an Online Driver for Gojek, Having completed a Full stack Developer Internship for Qwords and is working on freelance front-end projects, determined acquire new skills.
+            Graduate of Harisenin’s Full Stack Web Developer Bootcamp who
+            switched lane from a 5 years career on the road as an Online Driver
+            for Gojek, Having completed a Full stack Developer Internship for
+            Qwords and is working on freelance front-end projects, determined
+            acquire new skills.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -130,7 +125,7 @@ const About = () => {
 
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={1} duration={5} /> 
+                  <CountUp start={0} end={1} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -139,7 +134,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={5} /> 
+                  <CountUp start={0} end={2} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -148,7 +143,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={5} /> 
+                  <CountUp start={0} end={4} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
@@ -157,7 +152,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={5} /> 
+                  <CountUp start={0} end={3} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Certificate and Training
