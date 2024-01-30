@@ -115,12 +115,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            After 5 years of experience on the road as an Online Driver for
-            Gojek, Roy is switching lanes and is on a journey to become Full
-            Stack Developer. His next step is graduating from Harisenin’s Full
-            Stack Web Developer Bootcamp. He has discipline and determination to
-            acquire knowledge and skills, and he has already completed a Full
-            Stack Developer Internship for QWords.
+            Graduate of Harisenin’s Full Stack Web Developer Bootcamp  who switched lane  from a  5 years career on the road as an Online Driver for Gojek, Having completed a Full stack Developer Internship for Qwords and is working on freelance front-end projects, determined acquire new skills.
           </motion.p>
           {/* counters */}
           <motion.div
