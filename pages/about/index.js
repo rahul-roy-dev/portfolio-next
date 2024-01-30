@@ -82,7 +82,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className=" hidden xl:flex absolute bottom-0 -left-[170px]"
+        className=" hidden xl:flex absolute bottom-0 -left-[170px] overflow-x-scroll"
       >
         <div id="Avatar" className=" w-[25vw] h-auto "></div>
       </motion.div>
