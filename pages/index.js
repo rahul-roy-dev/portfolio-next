@@ -24,7 +24,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 md:text-[50px]"
+            className="h1"
           >
             If you can imagine it <br /> I can{" "}
             <span className="text-accent">Code it</span>
