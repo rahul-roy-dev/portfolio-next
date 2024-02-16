@@ -25,7 +25,7 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/zakiyah.png',
+          path: '/espoir.png',
         },
         {
           title: 'title',
