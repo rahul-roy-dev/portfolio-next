@@ -46,7 +46,11 @@ const aboutData = [
     info: [
       {
         title: "Full Stack Developer Bootcamp - Harisenin.com",
-        stage: "2023",
+        stage: "2024",
+      },
+      {
+        title: "Highest Achiever of Harisenin - Harisenin.com",
+        stage: "2024",
       },
       {
         title: "Introduction to Javascript - Harisenin Coding Camp",
@@ -140,7 +144,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={5} />
+                  <CountUp start={0} end={5} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
@@ -149,7 +153,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={5} />
+                  <CountUp start={0} end={4} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Certificate and Training
